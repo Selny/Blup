@@ -49,7 +49,7 @@ namespace Blup
 
         private void OnKeyDownHandler(object sender, KeyEventArgs e)
         {
-            if (e.Key == Key.Enter || e is null)
+            if (sender is Button || e.Key == Key.Enter)
             {
                 msg1.Visibility = Visibility.Visible;
                 if (order == 0)
