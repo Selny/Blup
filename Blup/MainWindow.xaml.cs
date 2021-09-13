@@ -68,7 +68,7 @@ namespace Blup
                     order++;
                     gmsg2_r.Visibility = Visibility.Visible;
 
-                    if (MsgBox.Text.Contains("Salam")) msg1_r.Text = "Aleykum Salam";
+                    if (MsgBox.Text.Contains("Salam")) msg2_r.Text = "Aleykum Salam";
                     else msg2_r.Text = "Muellim sizi Tural sensei caqira bilerem? :)";
                 }
                 else if (order == 2)
@@ -77,7 +77,7 @@ namespace Blup
                     msg3.Text = MsgBox.Text;
                     gmsg3_r.Visibility = Visibility.Visible;
 
-                    if (MsgBox.Text.Contains("Salam")) msg1_r.Text = "Aleykum Salam";
+                    if (MsgBox.Text.Contains("Salam")) msg3_r.Text = "Aleykum Salam";
                     else msg3_r.Text = "Acmisam";
                 }
                 MsgBox.Text = "";

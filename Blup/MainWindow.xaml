@@ -44,7 +44,7 @@
         <Border Name="gmsg1" Background="#756262E9" Height="32.5" Width="130" CornerRadius="16, 0, 16, 16" Margin="147.5, -325, 0, 0" Visibility="Hidden">
             <TextBlock Name="msg1"  Margin="5" Foreground="White" Text="" FontSize="14"/>
         </Border>
-        <Border Name="gmsg1_r" Background="#AA6262E9" Height="32.5" Width="80" CornerRadius="0, 16, 16, 16" Margin="-147.5, -250, 0, 0" Visibility="Hidden">
+        <Border Name="gmsg1_r" Background="#AA6262E9" Height="32.5" Width="170" CornerRadius="0, 16, 16, 16" Margin="-105, -250, 0, 0" Visibility="Hidden">
             <TextBlock Name="msg1_r" Margin="5" Foreground="White" Text="" FontSize="14"/>
         </Border>
         <Border Name="gmsg2" Background="#756262E9" Height="32.5" Width="130" CornerRadius="16, 0, 16, 16" Margin="147.5, -175, 0, 0" Visibility="Hidden">
@@ -53,10 +53,10 @@
         <Border Name="gmsg2_r" Background="#AA6262E9" Height="32.5" Width="260" CornerRadius="0, 16, 16, 16" Margin="-17.5, -100, 0, 0" Visibility="Hidden">
             <TextBlock Name="msg2_r" Margin="5" Foreground="White" Text="" FontSize="14"/>
         </Border>
-        <Border Name="gmsg3" Background="#756262E9" Height="32.5" Width="130" CornerRadius="16, 0, 16, 16" Margin="147.5, -25, 0, 0" Visibility="Hidden">
+        <Border Name="gmsg3" Background="#756262E9" Height="32.5" Width="170" CornerRadius="16, 0, 16, 16" Margin="147.5, -25, 0, 0" Visibility="Hidden">
             <TextBlock Name="msg3" Margin="5" Foreground="White" Text="" FontSize="14"/>
         </Border>
-        <Border Name="gmsg3_r" Background="#AA6262E9" Height="32.5" Width="100" CornerRadius="0, 16, 16, 16" Margin="-147.5, 50, 0, 0" Visibility="Hidden">
+        <Border Name="gmsg3_r" Background="#AA6262E9" Height="32.5" Width="170" CornerRadius="0, 16, 16, 16" Margin="-105, 50, 0, 0" Visibility="Hidden">
             <TextBlock Name="msg3_r" Margin="5" Foreground="White" Text="" FontSize="14"/>
         </Border>
 
